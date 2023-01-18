@@ -1,5 +1,6 @@
 # Login-and-sign-page-in-pyhton
  a gui for a login and singup page in pyhton that use tkinter for the gui and sql as data base .a methode of verifaction is implanted to mae sure the user use a valid e-mail address "x@x.com" and a strong password
+ to run it u just need to run the main.py in the file terminal
 ---
 login page :
 
