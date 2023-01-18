@@ -1,0 +1,14 @@
+import re
+def idcheck(id):
+  val=True
+  if len(id)!=5:
+    print("")
+    val=False
+  else: 
+    if bool(re.match(r'\b0-9\b', id)):
+      val=False
+      print("id should be num")
+    if val==True:
+        return True
+    else: return False
+idcheck("1504")
